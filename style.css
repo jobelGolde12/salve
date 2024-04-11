@@ -1,0 +1,53 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+*{
+    box-sizing: border-box;
+}
+.row .col{
+    height: 89vh;
+}
+
+/* section{
+    position: absolute;
+    top: 10%;
+} */
+
+.sidenav{
+    background: #D1BB9E ;
+}
+.main{
+    background: #EAD8C0;
+}
+.header{
+    background: #EAD8C0;
+}
+.salve-image{
+    width: 200px;
+    height: 200px;
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(30%, -90%); */
+}
+
+.social-media div a:hover{
+    background: #333;
+}
+
+.social-media{
+    flex-wrap: wrap;
+}
+.sidenav{
+    border-radius: 0 20px 20px 0;
+}
+
+
+@media screen and(max-width: 991px){
+    .sidenav{
+        left: -100%;
+        position: absolute;
+    }
+}
